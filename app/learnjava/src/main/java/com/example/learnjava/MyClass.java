@@ -42,5 +42,20 @@ public class MyClass {
 //                superman.age + " power " +
 //                superman.power
 //        );
+        Employee employee = new Employee();
+        employee.setFirstName("James");
+        employee.setLastName("Bond");
+        employee.setAge(35);
+        employee.setId(1425);
+        employee.setAnnualSalary(1000000);
+        System.out.println(employee.getId()+","+employee.getAnnualSalary());
+        Manager manager = new Manager();
+        manager.setFirstName("Manager George");
+        manager.setLastName("Kilos");
+        manager.setAge(46);
+        manager.setId(665);
+        manager.setAnnualSalary(2000000);
+
+        System.out.println(manager.getAnnualSalary()+","+manager.getFirstName());
     }
 }
