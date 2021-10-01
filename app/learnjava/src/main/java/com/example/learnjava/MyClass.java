@@ -33,14 +33,14 @@ public class MyClass {
         microphone1.setModel(152007);
         System.out.println("New Mic: " + microphone1.getModel());
 
-        Person person = new Person("Steve",56);
-        System.out.println(person.name + " age " + person.age);
-
-        Hero superman = new Hero("Super Man",132,1000);
-        System.out.println(
-                superman.name + " age " +
-                superman.age + " power " +
-                superman.power
-        );
+//        Person person = new Person("Steve",56);
+//        System.out.println(person.name + " age " + person.age);
+//
+//        Hero superman = new Hero("Super Man",132,1000);
+//        System.out.println(
+//                superman.name + " age " +
+//                superman.age + " power " +
+//                superman.power
+//        );
     }
 }
