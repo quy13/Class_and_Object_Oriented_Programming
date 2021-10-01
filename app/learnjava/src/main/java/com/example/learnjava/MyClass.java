@@ -57,5 +57,6 @@ public class MyClass {
         manager.setAnnualSalary(2000000);
 
         System.out.println(manager.getAnnualSalary()+","+manager.getFirstName());
+        System.out.println(manager);
     }
 }
